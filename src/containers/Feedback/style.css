@@ -1,0 +1,91 @@
+
+.feedback-form-background {
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    position: relative;
+    padding: 40px 0 0 0;
+}
+
+.feedback-form-selected-user-details {
+    color: #ffffff;
+    padding: 0 30px 30px;
+}
+
+.feedback-form-selected-user-details__heading {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.feedback-form-selected-user-details__name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.feedback-form-selected-user-details__role {
+    font-size: 20px;
+}
+
+.feedback-form {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.feedback-form__user-avatar-large {
+    width: 180px;
+    height: 180px;
+    background-color: #cccccc;
+    border: 7px solid #ffffff;
+    border-radius: 50%;
+}
+
+.feedback-form__heading {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.feedback-form__textbox {
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+}
+
+.feedback-form__user-select-icon {
+    cursor: pointer;
+    position: absolute;
+    top: -90px;
+    right: 200px;
+}
+
+.feedback-thank-you__inner {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 30px;
+    position: relative;
+}
+
+.feedback-thank-you__heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.feedback-thank-you__user-name {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.feedback-thank-you__user-role {
+    font-size: 24px;
+}
+
+.feedback-thank-you__user-avatar {
+    width: 180px;
+}
+
+.feedback-thank-you__btn {
+    width: 100%;
+    margin-bottom: 15px;
+}

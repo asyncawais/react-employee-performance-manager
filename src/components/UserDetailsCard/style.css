@@ -1,0 +1,41 @@
+.user-details-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: #000000;
+    padding: 110px 0 30px;
+    margin-top: 90px;
+    position: relative;
+    text-align: center;
+}
+
+.user-details-card__avatar {
+
+    background-color: #cccccc;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    height: 180px;
+    position: absolute;
+    top: -90px;
+    width: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.user-details-card__name {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.user-details-card__role {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.user-details-card__email,
+.user-details-card__mobile,
+.user-details-card__manager,
+.user-details-card__direct-reports-count {
+    font-size: 18px;
+    margin-bottom: 15px;
+}

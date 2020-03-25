@@ -1,0 +1,43 @@
+.objectives-filter__inner {
+    background-color: #cccccc;
+    overflow: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+.objectives-status-filter__btn {
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    padding: 10px 20px 20px;
+}
+
+.objectives-status-filter__btn:focus {
+    outline: none;
+}
+
+.objectives-status-filter__btn.active {
+    background-color: #eeeeee;
+}
+
+.objectives-status-filter__btn--showAll {
+    background-color: #dddddd;
+}
+
+.objectives-status-filter__btn--draft {
+    background-color: #cfcfcf;
+}
+
+.objectives-status-filter__btn--inProgress {
+    background-color: #cacaca;
+}
+
+.objectives-status-filter__btn--complete {
+    background-color: #cccccc;
+}
+
+.objectives-status-filter .nav-tabs {
+    border: 0;
+}

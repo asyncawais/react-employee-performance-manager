@@ -1,0 +1,48 @@
+.user-review-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: #000000;
+    padding: 30px;
+    margin-top: 90px;
+    position: relative;
+    text-align: center;
+}
+
+.user-review-card__heading {
+    font-size: 38px;
+}
+
+.user-review-card__sub-heading {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.user-review-card__summary {
+    font-size: 18px;
+}
+
+.user-review-card__count-heading {
+    font-size: 18px;
+    text-align: left;
+}
+
+.user-review-card__count {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.user-review-card__count--inProgress {
+    color: #007bc3;
+}
+
+.user-review-card__count--completed {
+    color: #86C24A;
+}
+
+.user-review-card__count--due {
+    color: #e90065;
+}
+
+.user-review-card__count--overdue {
+    color: #dd340f;
+}
